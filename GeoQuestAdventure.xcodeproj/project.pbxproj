@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEA55AE81E993F53000E511D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA55AE71E993F53000E511D /* AppDelegate.swift */; };
+		AEA55AEA1E993F53000E511D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA55AE91E993F53000E511D /* FirstViewController.swift */; };
+		AEA55AEC1E993F53000E511D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA55AEB1E993F53000E511D /* SecondViewController.swift */; };
+		AEA55AEF1E993F53000E511D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA55AED1E993F53000E511D /* Main.storyboard */; };
+		AEA55AF11E993F53000E511D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEA55AF01E993F53000E511D /* Assets.xcassets */; };
+		AEA55AF41E993F53000E511D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA55AF21E993F53000E511D /* LaunchScreen.storyboard */; };
+		AEA55AFF1E993F53000E511D /* GeoQuestAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA55AFE1E993F53000E511D /* GeoQuestAdventureTests.swift */; };
+		AEA55B0A1E993F53000E511D /* GeoQuestAdventureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA55B091E993F53000E511D /* GeoQuestAdventureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEA55AFB1E993F53000E511D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA55ADC1E993F53000E511D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA55AE31E993F53000E511D;
+			remoteInfo = GeoQuestAdventure;
+		};
+		AEA55B061E993F53000E511D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEA55ADC1E993F53000E511D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEA55AE31E993F53000E511D;
+			remoteInfo = GeoQuestAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEA55AE41E993F53000E511D /* GeoQuestAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoQuestAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA55AE71E993F53000E511D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEA55AE91E993F53000E511D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		AEA55AEB1E993F53000E511D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		AEA55AEE1E993F53000E511D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEA55AF01E993F53000E511D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEA55AF31E993F53000E511D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEA55AF51E993F53000E511D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA55AFA1E993F53000E511D /* GeoQuestAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuestAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA55AFE1E993F53000E511D /* GeoQuestAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuestAdventureTests.swift; sourceTree = "<group>"; };
+		AEA55B001E993F53000E511D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA55B051E993F53000E511D /* GeoQuestAdventureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoQuestAdventureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA55B091E993F53000E511D /* GeoQuestAdventureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoQuestAdventureUITests.swift; sourceTree = "<group>"; };
+		AEA55B0B1E993F53000E511D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEA55AE11E993F53000E511D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55AF71E993F53000E511D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55B021E993F53000E511D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEA55ADB1E993F53000E511D = {
+			isa = PBXGroup;
+			children = (
+				AEA55AE61E993F53000E511D /* GeoQuestAdventure */,
+				AEA55AFD1E993F53000E511D /* GeoQuestAdventureTests */,
+				AEA55B081E993F53000E511D /* GeoQuestAdventureUITests */,
+				AEA55AE51E993F53000E511D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEA55AE51E993F53000E511D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEA55AE41E993F53000E511D /* GeoQuestAdventure.app */,
+				AEA55AFA1E993F53000E511D /* GeoQuestAdventureTests.xctest */,
+				AEA55B051E993F53000E511D /* GeoQuestAdventureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEA55AE61E993F53000E511D /* GeoQuestAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				AEA55AE71E993F53000E511D /* AppDelegate.swift */,
+				AEA55AE91E993F53000E511D /* FirstViewController.swift */,
+				AEA55AEB1E993F53000E511D /* SecondViewController.swift */,
+				AEA55AED1E993F53000E511D /* Main.storyboard */,
+				AEA55AF01E993F53000E511D /* Assets.xcassets */,
+				AEA55AF21E993F53000E511D /* LaunchScreen.storyboard */,
+				AEA55AF51E993F53000E511D /* Info.plist */,
+			);
+			path = GeoQuestAdventure;
+			sourceTree = "<group>";
+		};
+		AEA55AFD1E993F53000E511D /* GeoQuestAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA55AFE1E993F53000E511D /* GeoQuestAdventureTests.swift */,
+				AEA55B001E993F53000E511D /* Info.plist */,
+			);
+			path = GeoQuestAdventureTests;
+			sourceTree = "<group>";
+		};
+		AEA55B081E993F53000E511D /* GeoQuestAdventureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEA55B091E993F53000E511D /* GeoQuestAdventureUITests.swift */,
+				AEA55B0B1E993F53000E511D /* Info.plist */,
+			);
+			path = GeoQuestAdventureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEA55AE31E993F53000E511D /* GeoQuestAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA55B0E1E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventure" */;
+			buildPhases = (
+				AEA55AE01E993F53000E511D /* Sources */,
+				AEA55AE11E993F53000E511D /* Frameworks */,
+				AEA55AE21E993F53000E511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoQuestAdventure;
+			productName = GeoQuestAdventure;
+			productReference = AEA55AE41E993F53000E511D /* GeoQuestAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEA55AF91E993F53000E511D /* GeoQuestAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA55B111E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventureTests" */;
+			buildPhases = (
+				AEA55AF61E993F53000E511D /* Sources */,
+				AEA55AF71E993F53000E511D /* Frameworks */,
+				AEA55AF81E993F53000E511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA55AFC1E993F53000E511D /* PBXTargetDependency */,
+			);
+			name = GeoQuestAdventureTests;
+			productName = GeoQuestAdventureTests;
+			productReference = AEA55AFA1E993F53000E511D /* GeoQuestAdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEA55B041E993F53000E511D /* GeoQuestAdventureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEA55B141E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventureUITests" */;
+			buildPhases = (
+				AEA55B011E993F53000E511D /* Sources */,
+				AEA55B021E993F53000E511D /* Frameworks */,
+				AEA55B031E993F53000E511D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEA55B071E993F53000E511D /* PBXTargetDependency */,
+			);
+			name = GeoQuestAdventureUITests;
+			productName = GeoQuestAdventureUITests;
+			productReference = AEA55B051E993F53000E511D /* GeoQuestAdventureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEA55ADC1E993F53000E511D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SrinuL;
+				TargetAttributes = {
+					AEA55AE31E993F53000E511D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AEA55AF91E993F53000E511D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AEA55AE31E993F53000E511D;
+					};
+					AEA55B041E993F53000E511D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AEA55AE31E993F53000E511D;
+					};
+				};
+			};
+			buildConfigurationList = AEA55ADF1E993F53000E511D /* Build configuration list for PBXProject "GeoQuestAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEA55ADB1E993F53000E511D;
+			productRefGroup = AEA55AE51E993F53000E511D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEA55AE31E993F53000E511D /* GeoQuestAdventure */,
+				AEA55AF91E993F53000E511D /* GeoQuestAdventureTests */,
+				AEA55B041E993F53000E511D /* GeoQuestAdventureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEA55AE21E993F53000E511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA55AF41E993F53000E511D /* LaunchScreen.storyboard in Resources */,
+				AEA55AF11E993F53000E511D /* Assets.xcassets in Resources */,
+				AEA55AEF1E993F53000E511D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55AF81E993F53000E511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55B031E993F53000E511D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEA55AE01E993F53000E511D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA55AEC1E993F53000E511D /* SecondViewController.swift in Sources */,
+				AEA55AE81E993F53000E511D /* AppDelegate.swift in Sources */,
+				AEA55AEA1E993F53000E511D /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55AF61E993F53000E511D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA55AFF1E993F53000E511D /* GeoQuestAdventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEA55B011E993F53000E511D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEA55B0A1E993F53000E511D /* GeoQuestAdventureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEA55AFC1E993F53000E511D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA55AE31E993F53000E511D /* GeoQuestAdventure */;
+			targetProxy = AEA55AFB1E993F53000E511D /* PBXContainerItemProxy */;
+		};
+		AEA55B071E993F53000E511D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEA55AE31E993F53000E511D /* GeoQuestAdventure */;
+			targetProxy = AEA55B061E993F53000E511D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEA55AED1E993F53000E511D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA55AEE1E993F53000E511D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEA55AF21E993F53000E511D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEA55AF31E993F53000E511D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEA55B0C1E993F53000E511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEA55B0D1E993F53000E511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEA55B0F1E993F53000E511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoQuestAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AEA55B101E993F53000E511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GeoQuestAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AEA55B121E993F53000E511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoQuestAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuestAdventure.app/GeoQuestAdventure";
+			};
+			name = Debug;
+		};
+		AEA55B131E993F53000E511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeoQuestAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoQuestAdventure.app/GeoQuestAdventure";
+			};
+			name = Release;
+		};
+		AEA55B151E993F53000E511D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoQuestAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoQuestAdventure;
+			};
+			name = Debug;
+		};
+		AEA55B161E993F53000E511D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GeoQuestAdventureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.srinul.GeoQuestAdventureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GeoQuestAdventure;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEA55ADF1E993F53000E511D /* Build configuration list for PBXProject "GeoQuestAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA55B0C1E993F53000E511D /* Debug */,
+				AEA55B0D1E993F53000E511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEA55B0E1E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA55B0F1E993F53000E511D /* Debug */,
+				AEA55B101E993F53000E511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEA55B111E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA55B121E993F53000E511D /* Debug */,
+				AEA55B131E993F53000E511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEA55B141E993F53000E511D /* Build configuration list for PBXNativeTarget "GeoQuestAdventureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEA55B151E993F53000E511D /* Debug */,
+				AEA55B161E993F53000E511D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEA55ADC1E993F53000E511D /* Project object */;
+}
